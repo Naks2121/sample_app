@@ -10,6 +10,7 @@ gem 'bootstrap-will_paginate'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.4'
+  gem 'capybara'
   # The following optional lines are part of the advanced setup.
   # gem 'guard-rspec', '2.5.0'
   # gem 'spork-rails', '4.0.0'
@@ -19,7 +20,6 @@ end
 
 group :test do
   gem 'selenium-webdriver'
-  gem 'capybara'
   gem 'factory_girl_rails'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
