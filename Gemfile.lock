@@ -44,13 +44,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.6.2)
-      execjs
     bcrypt (3.1.11)
-    bootstrap-sass (3.3.6)
-      autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
-    bootstrap-will_paginate (0.0.10)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
+    bootstrap-will_paginate (0.0.9)
       will_paginate
     builder (3.2.2)
     capybara (2.7.1)
@@ -90,10 +87,10 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.7.0)
-    factory_girl (4.7.0)
+    factory_girl (4.2.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.7.0)
-      factory_girl (~> 4.7.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
     faker (1.6.3)
       i18n (~> 0.5)
@@ -226,14 +223,13 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt
-  bootstrap-sass
-  bootstrap-will_paginate
+  bootstrap-sass (= 2.3.2.0)
+  bootstrap-will_paginate (= 0.0.9)
   capybara
-  childprocess
   coffee-rails
   cucumber-rails
   database_cleaner!
-  factory_girl_rails
+  factory_girl_rails (= 4.2.1)
   faker
   jbuilder
   jquery-rails

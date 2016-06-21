@@ -1,21 +1,20 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt'
 gem 'faker'
 gem 'will_paginate'
-gem 'bootstrap-will_paginate'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.4'
-  gem 'capybara'
   # The following optional lines are part of the advanced setup.
   # gem 'guard-rspec'
   gem 'spork-rails'
   # gem 'guard-spork'
-  gem 'childprocess'
+  #gem 'childprocess'
   # gem 'spork-rails', '4.0.0'
   # gem 'guard-spork', '1.5.0'
   # gem 'childprocess', '0.3.6'
@@ -23,10 +22,10 @@ end
 
 group :test do
   gem 'selenium-webdriver'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '4.2.1'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
-
+  gem 'capybara'
   # Uncomment this line on OS X.
   # gem 'growl', '1.0.3'
 
